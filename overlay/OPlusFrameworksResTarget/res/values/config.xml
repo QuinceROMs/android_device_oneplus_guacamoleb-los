@@ -253,4 +253,10 @@
         <item>99</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
+    <!-- Path to Dash charging status file -->
+    <string name="config_oemFastChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
+
+    <!-- Expected value from fast charging status file  -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
+
 </resources>
