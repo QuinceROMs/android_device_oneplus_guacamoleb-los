@@ -32,12 +32,15 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget \
-    SystemUIOverlay
+    OPlusSystemUIResTarget
 
 # NoCutout
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+
+PRODUCT_PACKAGES += \
+    SystemUIOverlay \
+    AlertSliderOverlay
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
