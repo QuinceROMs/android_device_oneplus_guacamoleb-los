@@ -14,10 +14,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2240
-TARGET_SCREEN_WIDTH := 1080
-
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
@@ -30,7 +26,7 @@ TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-pixelage
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
